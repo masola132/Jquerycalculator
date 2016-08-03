@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="style.css" />
+	<meta charset="UTF-8">
+	<title>J-query calculator</title>
+</head>
+<body>
+	<script src="main.js"></script>
+<div id="background">
+
+<FORM name="Keypad" action="">
+<input name="ReadOut" id="output" type="Text" size=24 value="0" readonly>
+<td colspan="2"><input id="btnC" type="Button" value="   C     " onclick="Clear()"></td>
+
+<table>		
+	<tr>
+  		<td><input id="btn7" type="Button" value="  7  " onclick="NumPressed(7)"></td>
+  		<td><input id="btn8" type="Button" value="  8  " onclick="NumPressed(8)"></td>      
+  		<td><input id="btn9" type="Button" value="  9  " onclick="NumPressed(9)"></td>
+		<td><input id="btnequals" type="Button" value="  =  " onclick="Operation('=')"></td>
+	</tr>
+
+	<tr>
+  		<td><input id="btn4" type="Button" value="  4  " onclick="NumPressed(4)"></td>
+ 		<td><input id="btn5" type="Button" value="  5  " onclick="NumPressed(5)"></td>      
+ 		<td><input id="btn6" type="Button" value="  6  " onclick="NumPressed(6)"></td>
+		<td><input id="btnplus" type="Button" value="  +  " onclick="Operation('+')"></td>
+	</tr>
+
+	<tr>
+		<td><input id="btn1" type="Button" value="  1  " onclick="NumPressed(1)"></td>
+  		<td><input id="btn2" type="Button" value="  2  " onclick="NumPressed(2)"></td>      
+ 		<td><input id="btn3" type="Button" value="  3  " onclick="NumPressed(3)"></td>
+		<td><input id="btnminus" type="Button" value="  -  " onclick="Operation('-')"></td>
+		
+	</tr>
+</table>
+	<tr>	
+		<input id="btn0" type="Button" value="   0    " onclick="NumPressed(0)">
+		<input id="btndecimal" type="Button" value="  .  " onclick="Decimal()">
+		<input id="btndivide" type="Button" value="  /  " onclick="Operation('/')">
+		<td><input id="btnmultiply" type="Button" value="  *  " onclick="Operation('*')"></td>
+		
+	</tr>
+</FORM>
+</div>
+
+</body>
+</html>

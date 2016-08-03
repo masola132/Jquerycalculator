@@ -1,0 +1,36 @@
+body {
+	background-color:green;
+	margin-left:100px;
+	border:1px solid white;
+	padding:100px;
+	padding-left:150px;
+	margin-right:300px;
+	margin-bottom:100px;
+}
+#input {
+	font-size:30px;
+	padding-top:px;
+	
+}
+input {
+	font-size:30px;
+	background-color:rgb(0,200,0);
+	color:white;
+}
+#buttons {
+	padding-top:20px;
+	padding-left:80px;
+	font-size:40px;
+	
+}
+#Equals {
+	font-size:40px;
+	padding-left:100px;
+	padding-bottom:-10px;
+	padding-top:-10px;
+}
+#title{
+	color:white;
+	font-size:60px;
+	padding-left:50px;
+}

@@ -1,0 +1,19 @@
+#background {
+	background-color:rgb(230,230,230);
+}
+ 
+input[type="button"]{
+    background-color:rgb(97,179,80);
+    border:1px solid #606060;
+    display:inline-block;
+    color:white;
+    font-family:Arial;
+    font-size:50px;
+    line-height:28px;
+    text-align:center;
+    margin-bottom:1.5px;
+    margin-left: 1.5px;
+    margin-right:1.5px ;
+    margin-top:1.5px ;
+    height: 75px; 
+}
